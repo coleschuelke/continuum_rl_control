@@ -65,7 +65,7 @@ void vec3CB(const geometry_msgs::Vector3 msg) {
 }
 
 // ROS subscribers
-ros::Subscriber<geometry_msgs::Twist> vec3_sub("/new/topic", vec3CB);
+ros::Subscriber<geometry_msgs::Vector3> vec3_sub("/new/topic", vec3CB);
 // ros::Subscriber<std_msgs::Bool> master_sub("/arduino/cmdCalibrationMaster", masterCB);
 // ros::Subscriber<std_msgs::Bool> aux_sub("/arduino/cmdCalibrationAux", auxCB);
 
